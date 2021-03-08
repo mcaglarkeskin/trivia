@@ -154,7 +154,6 @@ const QuestionPage = ({ navigation, route }): JSX.Element => {
 								answerReady
 									?
 									<View style={style.questionContainer}>
-										<Text>{questions[questionCount].correct_answer}</Text>
 										<View style={style.question}>
 											<Text style={style.questionText}>{questions[questionCount].question}</Text>
 										</View>
