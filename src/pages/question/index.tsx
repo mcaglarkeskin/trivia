@@ -46,7 +46,6 @@ const QuestionPage = ({ navigation, route }): JSX.Element => {
 		if (!countdown) return;
 		intervalId = setInterval(() => {
 			setCountdown(countdown - 1);
-			console.log(countdown)
 		}, 1000);
 		return () => {
 			clearInterval(intervalId)
